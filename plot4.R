@@ -23,7 +23,7 @@ png("plot4.png", width=480, height=480)
 #change par, set 2*2 row column for plotting mutiple graphs
 par(mfrow = c(2, 2))
 #plot 1st graph
-plot(datetime,globalActivePower, ylab="Global Active Power (kilowatts)", xlab = "",type = "l")
+plot(datetime,globalActivePower, ylab="Global Active Power", xlab = "",type = "l")
 #plot 2nd graph goes to row1,col2
 plot(datetime, voltage,  ylab="Voltage",xlab="datetime", type="l")
 
